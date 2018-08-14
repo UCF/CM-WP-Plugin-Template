@@ -19,7 +19,7 @@ For more information on Github wikis, [check out their documentation here](https
 
 1. From **your project repo** in Github, click on the "Wiki" tab.
 
-    [[https://help.github.com/assets/images/help/wiki/wiki_menu_link.png]]
+    <img src="https://help.github.com/assets/images/help/wiki/wiki_menu_link.png">
 
     If you haven't created any pages for this wiki yet (you see a welcome message with a "Create the first page" button), create a new "Home" page and save it.  Else, proceed to the next step.
 

@@ -27,7 +27,7 @@ For more information on Github wikis, [check out their documentation here](https
 
     `$ git clone git@github.com:UCF/CM-Documentation-Templates.git`
 
-3. `$ cd` into the CM-Documentation-Templates repo.
+3. `$ cd` into the `CM-Documentation-Templates` repo on your machine.
 
 4. Choose a template branch to base your new wiki off of (wiki branches all end with `-wiki`), then run:
 

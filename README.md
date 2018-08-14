@@ -21,11 +21,13 @@ For more information on Github wikis, [check out their documentation here](https
 
     <img src="https://help.github.com/assets/images/help/wiki/wiki_menu_link.png">
 
-    If you haven't created any pages for this wiki yet (you see a welcome message with a "Create the first page" button), create a new "Home" page and save it.  Else, proceed to the next step.
+    If you haven't created any pages for this wiki yet (you see a welcome message with a "Create the first page" button), create a new "Home" page and save it (don't worry about the contents of this new file; they'll get overwritten).  Else, proceed to the next step.
 
 2. If you haven't already done so, clone **this repo** onto your machine:
 
     `$ git clone git@github.com:UCF/CM-Documentation-Templates.git`
+
+    Otherwise, skip to the next step.
 
 3. `$ cd` into the `CM-Documentation-Templates` repo on your machine.  If you haven't done so in a while, pull down the latest project changes.
 

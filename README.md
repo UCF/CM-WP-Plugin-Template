@@ -7,7 +7,19 @@ A set of project documentation templates for use in new projects by UCF CM.
 
 In this project, each set of available templates is split out into unique branches.  Templates are grouped by project type and purpose; e.g. `plugin-files`, `theme-wiki`.
 
-### Creating a new wiki
+Know what you're looking for?  See below:
+
+### WordPress Plugins
+- [Plugin markdown files](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-files)
+- [Plugin wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-wiki)
+
+### WordPress Themes
+- [Theme markdown files](https://github.com/UCF/CM-Documentation-Templates/tree/theme-files)
+- [Theme wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/theme-wiki)
+
+-----
+
+## Creating a new wiki
 
 Whenever you're starting a new project hosted on Github, you should set up a new project wiki to host documentation and usage information.  A project wiki is a series of markdown files (and, optionally, images) that live in their own separate repo.  You can pull the wiki repo down locally to make changes, or make edits within Github directly.
 
@@ -15,7 +27,7 @@ For more information on Github wikis, [check out their documentation here](https
 
 **Note: these instructions are intended for brand new, unedited wikis.**  We recommend making changes to existing wikis manually to avoid accidentally overwriting data.
 
-#### Instructions:
+### Instructions:
 
 1. From **your project repo** in Github, click on the "Wiki" tab.
 
@@ -40,6 +52,6 @@ For more information on Github wikis, [check out their documentation here](https
     **Note: this step pushes a forced update onto your project's wiki!  Do NOT run this git command on an existing wiki, or you will lose your changes.**
 
 
-### Creating README and CONTRIBUTING files
+## Creating README and CONTRIBUTING files
 
 TODO

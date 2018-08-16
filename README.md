@@ -21,9 +21,7 @@ Know what you're looking for?  See below:
 
 ## Creating a new wiki
 
-Whenever you're starting a new project hosted on Github, you should set up a new project wiki to host documentation and usage information.  A project wiki is a series of markdown files (and, optionally, images) that live in their own separate repo.  You can pull the wiki repo down locally to make changes, or make edits within Github directly.
-
-For more information on Github wikis, [check out their documentation here](https://help.github.com/articles/about-github-wikis/).
+Whenever you're starting a new project hosted on Github, you should set up a new project wiki to host documentation and usage information.  A project wiki is a series of markdown files (and, optionally, images) that live in their own separate repo.  For more information on Github wikis, [check out their documentation here](https://help.github.com/articles/about-github-wikis/).
 
 **Note: these instructions are intended for brand new, unedited wikis.**  We recommend making changes to existing wikis manually to avoid accidentally overwriting data.
 
@@ -51,6 +49,9 @@ For more information on Github wikis, [check out their documentation here](https
 
     **Note: this step pushes a forced update onto your project's wiki!  Do NOT run this git command on an existing wiki, or you will lose your changes.**
 
+From this point, you can [edit your project's wiki files directly in Github](https://help.github.com/articles/adding-wiki-pages-via-the-online-interface/), or [pull down and edit the wiki repo locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally/).
+
+-----
 
 ## Creating README and CONTRIBUTING files
 

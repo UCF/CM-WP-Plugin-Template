@@ -1,6 +1,6 @@
-# CM-Documentation-Templates
+# CM-Project-Templates
 
-A set of project documentation templates for use in new projects by UCF CM.
+A set of project documentation and configuration templates for use in new projects by UCF CM.
 
 
 ## How to use these files

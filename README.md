@@ -1,13 +1,13 @@
 # {{My-Theme}}
 
-{{Brief description of this theme}}
+{{Brief description of this theme}}.  Built with the [Athena Framework](https://ucf.github.io/Athena-Framework/).
 
 ## Quick links
 
 * [**Theme Documentation**](https://github.com/UCF/{{My-Theme}}/wiki)
 * [Installation Requirements](#Installation-Requirements)
 * [Browser Compatibility](#Browser-Compatibility)
-* [Configuration](#Configuration)
+* [Theme Configuration](#Theme-Configuration)
 * [Development](#Development)
 * [Contributing](#Contributing)
 

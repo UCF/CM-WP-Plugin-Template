@@ -166,8 +166,8 @@ gulp.task('js', gulp.series('es-lint-theme', 'js-build-theme'));
 //
 // Rerun tasks when files change
 //
-gulp.task('watch', function() {
-  serverServe();
+gulp.task('watch', function(done) {
+  serverServe(done);
 
   gulp.watch(config.src.scssPath + '/**/*.scss', gulp.series('css', serverReload));
   gulp.watch(config.src.jsPath + '/**/*.js', gulp.series('js', serverReload));

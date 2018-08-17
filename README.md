@@ -47,7 +47,7 @@ This theme is compatible with the following browsers:
 Browsers not listed here are not explicitly supported and may not display sites using this theme correctly.
 
 
-## Configuration
+## Theme Configuration
 
 * {{IF ACF IS REQUIRED:}} [Download this theme's ACF config file](https://github.com/UCF/{{My-Theme}}/blob/master/dev/acf-export.json), and import field groups using the ACF importer under Custom Fields > Tools.
 * {{IF A STATIC FRONT PAGE IS REQUIRED/EXPECTED:}} Create and set a static front page under Settings > Reading.

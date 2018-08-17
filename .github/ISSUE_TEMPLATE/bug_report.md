@@ -1,35 +1,41 @@
 ---
-name: Bug report
+name: "\U0001F41B Bug report"
 about: Create a report to help us improve
 
 ---
 
+<!--
+Thank you for reporting a possible bug in {{My-Theme}}.
+
+Please provide a general summary of the issue in the Title above and fill in as much of the template below as you can.
+
+The version of WordPress can be found on the Admin Dashboard page in the bottom right-hand corner.
+The version of this theme can be found by navigating to Appearance > Themes and clicking on Theme Details.
+-->
+
 **Describe the bug**
-A clear and concise description of what the bug is.
+<!--- Provide a more detailed description of the issue you're having -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Steps to Reproduce**
+<!--- Provide a clear set of steps to reproduce this bug -->
+1.
+2.
+3.
+4.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Expected Behavior**
+<!--- Tell us what should happen -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Possible Fix**
+<!--- Not required: suggest a fix or reason for the bug -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
+**Your environment:**
+<!-- Include as many relevant details as possible. -->
  - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+ - OS: [e.g. iOS]
+ - Browser & Version [e.g. chrome 68, safari]
+ - WordPress Version: [e.g. 4.9.8]
+ - Theme Version: [e.g. 1.5.2]
 
 **Additional context**
-Add any other context about the problem here.
+<!--- How has this bug affected you? What were you trying to accomplish? Provide a link to a live example or screenshots if available. -->

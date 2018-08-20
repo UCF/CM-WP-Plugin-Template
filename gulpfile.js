@@ -13,22 +13,33 @@ var browserSync = require('browser-sync').create(),
     merge = require('merge');
 
 
-var configLocal = require('./gulp-config.json'),
-    configDefault = {
-      src: {
-        scssPath: './src/scss',
-        jsPath:   './src/js'
-      },
-      dist: {
-        cssPath:  './static/css',
-        jsPath:   './static/js',
-        fontPath: './static/fonts'
-      },
-      packagesPath: './node_modules',
-      sync: false,
-      syncTarget: 'http://localhost/wordpress/'
-    },
-    config = merge(configDefault, configLocal);
+var configLocal;
+try {
+  configLocal = require('./gulp-config.json');
+}
+catch (e) {
+  if (e.code !== 'MODULE_NOT_FOUND') {
+    throw e;
+  }
+  configLocal = {};
+}
+
+var configDefault = {
+  src: {
+    scssPath: './src/scss',
+    jsPath:   './src/js'
+  },
+  dist: {
+    cssPath:  './static/css',
+    jsPath:   './static/js',
+    fontPath: './static/fonts'
+  },
+  packagesPath: './node_modules',
+  sync: false,
+  syncTarget: 'http://localhost/wordpress/'
+};
+
+var config = merge(configDefault, configLocal);
 
 
 //
@@ -59,7 +70,7 @@ function buildCSS(src, dest) {
     .pipe(rename({
       extname: '.min.css'
     }))
-    .pipe(gulp.dest(dest))
+    .pipe(gulp.dest(dest));
 }
 
 // Base JS linting function (with eslint). Fixes problems in-place.

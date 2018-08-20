@@ -75,7 +75,7 @@ Note that compiled, minified css and js files are included within the repo.  Cha
 
     To enable BrowserSync, set `sync` to `true` and assign `syncTarget` the base URL of a site on your local WordPress instance that will use this theme, such as `http://localhost/wordpress/my-site/`.  Your `syncTarget` value will vary depending on your local host setup.
 
-    The full list of modifiable config values can be viewed in `gulpfile.js` (see `configDefault`).
+    The full list of modifiable config values can be viewed in `gulpfile.js` (see `config` variable).
 3. Run `gulp default` to process front-end assets.
 4. If you haven't already done so, create a new WordPress site on your development environment, and install and activate the required plugins listed above.
 5. Set {{My Theme}} as the active theme.

@@ -24,9 +24,9 @@ Please follow the instructions below **before** submitting a new bug report:
 2. **Check if the issue has been fixed** &mdash; if you're not running the latest version of the theme, please check your code against the repo's `master` branch first (`master` will always contain the latest, stable project code). If you are running the latest version, make sure the problem isn't already resolved in an upcoming [milestone](https://github.com/UCF/{{My-Theme}}/milestones).
 
 ### Submit a bug report
-Assuming you've followed all of these steps and still have a valid bug report to submit, you can submit a new bug report by [creating a new issue in Github](https://github.com/UCF/{{My-Theme}}/issues/new).
+Assuming you've followed all of these steps and still have a valid bug report to submit, you can submit a new bug report by [creating a new issue in Github](https://github.com/UCF/{{My-Theme}}/issues/new?template=bug_report.md).
 
-Add a descriptive, understandable title and details about the bug in the description field. Please try to be as detailed as possible in your report. What steps will reproduce the issue? What browser(s) and OS experience the problem? Do other browsers show the bug differently? What would you expect to be the outcome? All these details will help us fix any potential bugs more quickly.
+Add a descriptive, understandable title and details about the bug in the description field, following the template provided. Please try to be as detailed as possible in your report. What steps will reproduce the issue? What browser(s) and OS experience the problem? Do other browsers show the bug differently? What would you expect to be the outcome? All these details will help us fix any potential bugs more quickly.
 
 Example:
 
@@ -53,7 +53,7 @@ We welcome new feature requests, but before submitting a new request, think care
 
 Please provide as much detail and context as possible to justify the inclusion of your idea in the theme. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
 
-You can submit a new feature request by [creating a new issue in Github](https://github.com/UCF/{{My-Theme}}/issues/new).
+You can submit a new feature request by [creating a new issue in Github](https://github.com/UCF/{{My-Theme}}/issues/new?template=feature_request.md) and filling out the provided template.
 
 
 ## Pull requests
@@ -74,8 +74,10 @@ Adhering to the following process is the best way to submit a pull request:
    ```bash
    # Clone your fork of the repo into the current directory
    git clone https://github.com/<your-username>/{{My-Theme}}.git
+
    # Navigate to the newly cloned directory
    cd {{My-Theme}}
+
    # Assign the original repo to a remote called "upstream"
    git remote add upstream https://github.com/UCF/{{My-Theme}}.git
    ```
@@ -119,6 +121,10 @@ Adhering to the following process is the best way to submit a pull request:
 
 ## Code guidelines
 
+### PHP
+
+[Adhere to the WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) for new or modified code.
+
 ### HTML
 
 [Adhere to the mdo Code Guide.](http://codeguide.co/#html)
@@ -138,9 +144,13 @@ Use [CSS-Tricks' Sass Style Guide](https://css-tricks.com/sass-style-guide/) for
 - All generated color pallettes and font sizes/weights should comply with [WCAG 2.0 AA contrast guidelines](https://www.w3.org/TR/WCAG20/#visual-audio-contrast) in their default state.  Components and utilities with hover/focus/active states should try to comply with these contrast requirements whenever possible.
 - Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](http://a11yproject.com/posts/never-remove-css-outlines/) for more details.
 
+New/modified Sass code should not throw any Sass-lint errors.  We recommend using a [Sass-lint integration with your IDE of choice](https://www.npmjs.com/package/sass-lint#ide-integration) to show linter warnings/errors as you code.  This repo includes a Sass-lint config file with the desired linter rulesets for this project.
+
 ### JS
 
 [Adhere to the jQuery Coding Standards and Best Practices](http://lab.abhinayrathore.com/jquery-standards/).
 
 - 2 spaces (no tabs)
 - Don't use [jQuery event alias convenience methods](https://github.com/jquery/jquery/blob/master/src/event/alias.js) (such as `$().focus()`). Instead, use [`$().trigger(eventType, ...)`](https://api.jquery.com/trigger/) or [`$().on(eventType, ...)`](https://api.jquery.com/on/), depending on whether you're firing an event or listening for an event. (For example, `$().trigger('focus')` or `$().on('focus', function (event) { /* handle focus event */ })`) We do this to be compatible with custom builds of jQuery where the event aliases module has been excluded.
+
+New/modified JavaScript code should not throw any eslint errors.  We recommend using a [eslint integration with your IDE of choice](https://eslint.org/docs/user-guide/integrations#editors) to show linter warnings/errors as you code.  This repo includes an eslint config file with the desired linter rulesets for this project.

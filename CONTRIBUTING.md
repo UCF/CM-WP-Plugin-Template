@@ -4,6 +4,14 @@ If you are a developer for UCF and want to contribute to this theme, we'd love t
 
 Please take a moment to review this document before submitting new issues or pull requests in order to make the contribution process easy and effective for everyone involved.
 
+## Quick links
+* [Using the issue tracker](#using-the-issue-tracker)
+* [Bug reports](#bug-reports)
+* [Feature requests](#feature-requests)
+* [Pull requests](#pull-requests)
+* [Code guidelines](#code-guidelines)
+
+-----
 
 ## Using the issue tracker
 

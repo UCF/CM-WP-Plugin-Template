@@ -9,7 +9,7 @@ Please take a moment to review this document before submitting new issues or pul
 
 The [issue tracker](https://github.com/UCF/{{My-Theme}}/issues) in Github is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests).
 
-Please do not use the issue tracker for personal support requests.  The [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/) in the ucf-wp Slack group is the best place to get help with your project.  {{Consider referencing a theme-specific channel instead, if one is available.}}
+Please do not use the issue tracker for personal support requests.  The [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/) in the ucf-wp Slack workspace is the best place to get help with your project.  {{Consider referencing a theme-specific channel instead, if one is available.}}
 
 
 ## Bug reports
@@ -31,7 +31,7 @@ Add a descriptive, understandable title and details about the bug in the descrip
 
 ## Feature requests
 
-We welcome new feature requests, but before submitting a new request, think carefully about whether said feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the ucf-wp Slack group.
+We welcome new feature requests, but before submitting a new request, think carefully about whether said feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the ucf-wp Slack workspace.
 
 Please provide as much detail and context as possible to justify the inclusion of your idea in the theme. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
 

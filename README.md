@@ -57,7 +57,23 @@ To ensure our projects are created with the latest configurations and README inf
     git push -u origin master
     ```
 
-That's it!  From here, continue developing your plugin or theme as you would normally.  Remember to fill in the placeholder information for your project in the README, CONTRIBUTING doc, and other files! (You can do a project-wide search for `{{` to locate all of these placeholders.)
+6. Replace `{{My-Theme/Plugin}}` and `{{My Theme/Plugin}}` placeholders throughout the template files.
+
+    `{{My-Theme}}` or `{{My-Plugin}}` corresponds to the the **slug of your project on Github**, e.g. `Main-Site-Theme`.
+
+    `{{My Theme}}` or `{{My Plugin}}` should be replaced with the **human-friendly name** of your project, e.g. `Main Site Theme`.
+
+    You can perform a couple of project-wide find+replace commands in your IDE/editor to do this quickly.
+
+That's it!  From here, continue developing your plugin or theme as you would normally.  **Remember to fill in the remaining placeholder information for your project** in the README, CONTRIBUTING doc, and other files! (You can do a project-wide search for `{{` to locate all of these placeholders.)
+
+### Post-setup checklist:
+In addition to setting up your new project on Github using these files, remember to also do the following for all new projects.  Some parts of our project documentation depend on the following existing:
+
+- Set up a new channel on the ucf-wp Slack workspace for your project, using the naming convention `#prj-MY_PROJECT`, where `MY_PROJECT` corresponds to the **slug of your project on Github**, e.g. `#prj-Main-Site-Theme`.
+
+    If your Slack channel name doesn't fit within Slack's allotted character limit, you will need to update references to the project-specific channel URL throughout the project's files.
+- [Set up a project wiki](#creating-a-new-wiki) for hosting documentation
 
 -----
 
@@ -99,6 +115,14 @@ Whenever you're starting a new project hosted on Github, you should set up a new
     git push -u origin master --force
     ```
 
+6. Replace `{{My-Theme/Plugin}}` and `{{My Theme/Plugin}}` placeholders throughout the template files.
+
+    `{{My-Theme}}` or `{{My-Plugin}}` corresponds to the the **slug of your project on Github**, e.g. `Main-Site-Theme`.
+
+    `{{My Theme}}` or `{{My Plugin}}` should be replaced with the **human-friendly name** of your project, e.g. `Main Site Theme`.
+
+    You can perform a couple of project-wide find+replace commands in your IDE/editor to do this quickly.
+
 From this point, you can [edit your project's wiki files directly in Github](https://help.github.com/articles/adding-wiki-pages-via-the-online-interface/), or [continue editing the wiki repo locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally/) (note that you _must_ work locally to commit and push images up to the wiki).  See [Github's wiki documentation](https://help.github.com/articles/about-github-wikis/#further-reading) for more information.
 
-Remember to fill in the placeholder information for your project wiki in the provided template files! (You can do a project-wide search for `{{` to locate all of these placeholders.)
+**Remember to fill in the remaining placeholder information for your project wiki** in the provided template files! (You can do a project-wide search for `{{` to locate all of these placeholders.)

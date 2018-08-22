@@ -37,10 +37,12 @@ If you've followed the steps above and have a valid bug report to submit, you ca
 
 Add a descriptive, understandable title and details about the bug in the description field, following the template provided. Please try to be as detailed as possible in your report. What steps will reproduce the issue? What browser(s) and OS experience the problem? Do other browsers show the bug differently? What would you expect to be the outcome? All of the information you provide will help us quickly evaluate and fix the issue.
 
+If you have a live example of the bug available somewhere public, please include a link in the bug report.  If you're not comfortable including the URL in the Github issue (e.g. it points to a development environment), you can make a note of it in the report (e.g. "see Slack for example URL"), then share the URL in the [#prj-{{My-Theme}} Slack channel](https://ucf-wp.slack.com/messages/prj-{{My-Theme}}/).
+
 
 ## Feature requests
 
-We welcome new feature requests; however, before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).
+We welcome new feature requests from developers across campus.  Before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).
 
 Please provide as much detail and context as possible to justify the inclusion of your idea in the theme. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
 
@@ -53,7 +55,9 @@ You can submit a new feature request by [creating a new issue in Github](https:/
 
 All pull requests should remain focused in scope and avoid containing unrelated commits.
 
-Please adhere to the [coding guidelines](#code-guidelines) used throughout the project (indentation, accurate comments, etc.). Code that does not adhere to these standards will not be merged into the project.
+Your pull request will be reviewed by at least one maintainer of the theme.  While your code should be complete enough to be understood by the person reviewing it, we don't want to spend an extensive amount of time reviewing code--try to keep your code sample brief enough to be reviewed within one hour.
+
+Please adhere to the [coding guidelines](#code-guidelines) used throughout the project (indentation, accurate comments, etc.)  Code that does not adhere to these standards will not be merged into the project.
 
 ### How to submit a pull request
 
@@ -114,11 +118,13 @@ Adhering to the following process is the best way to submit a pull request:
 
 In general, we keep conversations about distributed UCF WordPress projects on the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).  This workspace is owned and managed by UCF Web Communications (Webcom).  You'll need a **@ucf.edu** email address to join.
 
+Whenever you post to the ucf-wp Slack, including your **job title**, information about the **college or department** you work for, as well as the **site(s) you need help with** will help us help you more effectively.
+
 ### General questions
 If you have a general question about the theme, design decisions, or any other question that isn't a help request, please post it in the [#prj-{{My-Theme}} Slack channel](https://ucf-wp.slack.com/messages/prj-{{My-Theme}}/). {{Edit this copy as needed!}}
 
 ### Help
-If you need help with using this theme on your site, check out our [project documentation](https://github.com/UCF/{{My-Theme}}/wiki).  If you can't find the answer to your question there, please drop us a line in the [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/).  You don't need to @mention anyone specific, but **please note that you're using the {{My Theme}} when posting your question**.
+If you need help with using this theme on your site, check out our [project documentation](https://github.com/UCF/{{My-Theme}}/wiki).  If you can't find the answer to your question there, please drop us a line in the [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/).  You don't need to @mention anyone specific, but **please note that you're using the {{My Theme}} when posting your question** and include a link to your site if it's relevant to your question.
 
 -----
 

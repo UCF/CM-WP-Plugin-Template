@@ -128,7 +128,7 @@ If you need help with using this theme on your site, check out our [project docu
 
 -----
 
-## Code standard and style guides
+## Code standards and style guides
 
 Whenever you add or modify code in this repo, please follow the code style guides noted below, per language:
 

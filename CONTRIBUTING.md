@@ -1,23 +1,24 @@
 # Contributing to {{My Theme}}
 
-If you are a developer for UCF and want to contribute to this theme, we'd love to hear from you.  This document outlines the best ways to submit new ideas or inform us of bugs.
+Thank you for your interest in contributing to this project!  If you are a developer for UCF and want to contribute to this theme, we'd love to hear from you.
 
-Please take a moment to review this document before submitting new issues or pull requests in order to make the contribution process easy and effective for everyone involved.
+This document outlines the best ways to submit new ideas or inform us of bugs.  Please take a moment to review these guidelines before submitting new issues or pull requests in order to make the contribution process easy and effective for everyone involved.
 
 ## Quick links
 * [Using the issue tracker](#using-the-issue-tracker)
 * [Bug reports](#bug-reports)
 * [Feature requests](#feature-requests)
 * [Pull requests](#pull-requests)
-* [Code guidelines](#code-guidelines)
+* [Asking questions/getting help](#questions)
+* [Code standards and style guides](#code-standards-and-style-guides)
 
 -----
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/UCF/{{My-Theme}}/issues) in Github is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests).
+The [issue tracker](https://github.com/UCF/{{My-Theme}}/issues) in Github is the preferred channel for [bug reports](#bug-reports), [feature requests](#feature-requests) and [submitting pull requests](#pull-requests).
 
-Please do not use the issue tracker for personal support requests.  The [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/) in the ucf-wp Slack workspace is the best place to get help with your project.  {{Consider referencing a theme-specific channel instead, if one is available.}}
+Please do not use the issue tracker for personal support requests.  The [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/) is the best place to get help with your project.  See the section on [getting help](#asking-questions-getting-help) for more information.
 
 
 ## Bug reports
@@ -25,21 +26,21 @@ Please do not use the issue tracker for personal support requests.  The [#help-t
 A bug is a demonstrable problem that is caused by the code in the repository. Concise and thorough bug reports will help us fix reported problems more quickly and effectively.
 
 ### Before submitting a bug report
-Please follow the instructions below **before** submitting a new bug report:
+Before you submit a new bug report, please follow these steps:
 
-1. **Use the GitHub issue search** &mdash; check if the issue has already been reported.
+1. **Use the GitHub issue search** &mdash; check if the issue has already been reported.  Feel free to comment in the existing issue if it is still open and you have new information to share.
 
 2. **Check if the issue has been fixed** &mdash; if you're not running the latest version of the theme, please check your code against the repo's `master` branch first (`master` will always contain the latest, stable project code). If you are running the latest version, make sure the problem isn't already resolved in an upcoming [milestone](https://github.com/UCF/{{My-Theme}}/milestones).
 
 ### Submit a bug report
-Assuming you've followed all of these steps and still have a valid bug report to submit, you can submit a new bug report by [creating a new issue in Github](https://github.com/UCF/{{My-Theme}}/issues/new?template=bug_report.md).
+If you've followed the steps above and have a valid bug report to submit, you can submit it by [creating a new issue in Github](https://github.com/UCF/{{My-Theme}}/issues/new?template=bug_report.md).
 
 Add a descriptive, understandable title and details about the bug in the description field, following the template provided. Please try to be as detailed as possible in your report. What steps will reproduce the issue? What browser(s) and OS experience the problem? Do other browsers show the bug differently? What would you expect to be the outcome? All of the information you provide will help us quickly evaluate and fix the issue.
 
 
 ## Feature requests
 
-We welcome new feature requests; however, before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the ucf-wp Slack workspace.
+We welcome new feature requests; however, before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).
 
 Please provide as much detail and context as possible to justify the inclusion of your idea in the theme. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
 
@@ -48,7 +49,7 @@ You can submit a new feature request by [creating a new issue in Github](https:/
 
 ## Pull requests
 
-**Please ask first** before embarking on any significant pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the theme's maintainers might not want to merge into the project. Pull requests should be related to existing issues that have been acknowledged by a UCF Marketing developer.
+[**Please ask first**](#asking-questions-getting-help) before embarking on any _significant_ pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the theme's maintainers might not want to merge into the project. Pull requests should be related to existing issues that have been acknowledged by UCF Web Communications.
 
 All pull requests should remain focused in scope and avoid containing unrelated commits.
 
@@ -107,8 +108,23 @@ Adhering to the following process is the best way to submit a pull request:
 
 8. [Open a Pull Request](https://help.github.com/articles/about-pull-requests/) against the `rc-*` or `master` branch (whichever you initially branched off of.) Pull request titles and descriptions should be as descriptive and clear as possible.
 
+-----
 
-## Code guidelines
+## Asking questions/getting help
+
+In general, we keep conversations about distributed UCF WordPress projects on the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).  This workspace is owned and managed by UCF Web Communications (Webcom).  You'll need a **@ucf.edu** email address to join.
+
+### General questions
+If you have a general question about the theme, design decisions, or any other question that isn't a help request, please post it in the [#prj-{{My-Theme}} Slack channel](https://ucf-wp.slack.com/messages/prj-{{My-Theme}}/). {{Edit this copy as needed!}}
+
+### Help
+If you need help with using this theme on your site, check out our [project documentation](https://github.com/UCF/{{My-Theme}}/wiki).  If you can't find the answer to your question there, please drop us a line in the [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/).  You don't need to @mention anyone specific, but **please note that you're using the {{My Theme}} when posting your question**.
+
+-----
+
+## Code standard and style guides
+
+Whenever you add or modify code in this repo, please follow the code style guides noted below, per language:
 
 ### PHP
 

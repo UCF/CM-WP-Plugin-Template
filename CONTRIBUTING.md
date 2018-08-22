@@ -34,12 +34,12 @@ Please follow the instructions below **before** submitting a new bug report:
 ### Submit a bug report
 Assuming you've followed all of these steps and still have a valid bug report to submit, you can submit a new bug report by [creating a new issue in Github](https://github.com/UCF/{{My-Theme}}/issues/new?template=bug_report.md).
 
-Add a descriptive, understandable title and details about the bug in the description field, following the template provided. Please try to be as detailed as possible in your report. What steps will reproduce the issue? What browser(s) and OS experience the problem? Do other browsers show the bug differently? What would you expect to be the outcome? All these details will help us fix any potential bugs more quickly.
+Add a descriptive, understandable title and details about the bug in the description field, following the template provided. Please try to be as detailed as possible in your report. What steps will reproduce the issue? What browser(s) and OS experience the problem? Do other browsers show the bug differently? What would you expect to be the outcome? All of the information you provide will help us quickly evaluate and fix the issue.
 
 
 ## Feature requests
 
-We welcome new feature requests, but before submitting a new request, think carefully about whether said feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the ucf-wp Slack workspace.
+We welcome new feature requests; however, before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Theme}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the ucf-wp Slack workspace.
 
 Please provide as much detail and context as possible to justify the inclusion of your idea in the theme. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
 
@@ -48,7 +48,7 @@ You can submit a new feature request by [creating a new issue in Github](https:/
 
 ## Pull requests
 
-**Please ask first** before embarking on any significant pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the theme's maintainers might not want to merge into the project. Generally speaking, pull requests should be related to existing issues that have been acknowledged by a UCF Marketing developer.
+**Please ask first** before embarking on any significant pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the theme's maintainers might not want to merge into the project. Pull requests should be related to existing issues that have been acknowledged by a UCF Marketing developer.
 
 All pull requests should remain focused in scope and avoid containing unrelated commits.
 
@@ -81,15 +81,15 @@ Adhering to the following process is the best way to submit a pull request:
 
 4. Create a new topic branch to contain your feature, change, or fix.
 
-    New branches **must** be branched off of the most recent existing `rc-*` branch (typically there will only be one open at a time), or off of `master` directly, if no `rc-*` branch exists.
-
-    **Never create _any_ new branch from the `develop` branch**--`develop` exists solely for project maintainers' usage and is considered a "dirty" branch. **Branches created from `develop` will not be merged into the project.**
-
    ```bash
    git checkout -b <topic-branch-name>
    ```
 
-5. Commit your changes in logical chunks. Please provide helpful, readable commit messages (avoid nondescriptive messages such as "bugfix" or "minor change").
+    New branches **must** be branched off of the most recent existing `rc-*` branch (typically there will only be one open at a time), or off of `master` directly if no `rc-*` branch exists.
+
+    **Never create _any_ new branch from the `develop` branch**--`develop` exists solely for project maintainers' usage and is considered a "dirty" branch. **Branches created from `develop` will not be merged into the project.**
+
+5. Commit your changes in logical chunks. Please provide [helpful, readable commit messages](https://chris.beams.io/posts/git-commit/) (avoid nondescriptive messages such as "bugfix" or "minor change").
 
     If you're making changes to scss or js files, make sure you're minifying **and committing** those minified file changes.  scss and js file processing should be performed using gulp commands provided in the repo (see [gulpfile.js](https://github.com/UCF/{{My-Theme}}/blob/master/gulpfile.js))
 
@@ -105,8 +105,7 @@ Adhering to the following process is the best way to submit a pull request:
    git push origin <topic-branch-name>
    ```
 
-8. [Open a Pull Request](https://help.github.com/articles/about-pull-requests/)
-    with a clear title and description against the branch your topic branch was initially branched off of.
+8. [Open a Pull Request](https://help.github.com/articles/about-pull-requests/) against the `rc-*` or `master` branch (whichever you initially branched off of.) Pull request titles and descriptions should be as descriptive and clear as possible.
 
 
 ## Code guidelines

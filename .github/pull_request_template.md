@@ -2,7 +2,7 @@
 Thank you for contributing to {{My-Project}}.
 
 Please make sure you've read our contributing guidelines:
-{{My-Theme Contributing Guidelines link}}
+https://github.com/UCF/{{My-Project}}/blob/master/CONTRIBUTING.md
 
 Provide a general summary of your changes in the Title above and fill in the template below.
 -->

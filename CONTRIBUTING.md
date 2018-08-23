@@ -57,7 +57,7 @@ All pull requests should remain focused in scope and avoid containing unrelated 
 
 Your pull request will be reviewed by at least one maintainer of the theme.  While your code should be complete enough to be understood by the person reviewing it, we don't want to spend an extensive amount of time reviewing code--try to keep your code sample brief enough to be reviewed within one hour.
 
-Please adhere to the [coding guidelines](#code-guidelines) used throughout the project (indentation, accurate comments, etc.)  Code that does not adhere to these standards will not be merged into the project.
+Please adhere to the [coding guidelines](#code-standards-and-style-guides) used throughout the project (indentation, accurate comments, etc.)  Code that does not adhere to these standards will not be merged into the project.
 
 ### How to submit a pull request
 

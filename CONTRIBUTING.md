@@ -9,7 +9,7 @@ This document outlines the best ways to submit new ideas or inform us of bugs.  
 * [Bug reports](#bug-reports)
 * [Feature requests](#feature-requests)
 * [Pull requests](#pull-requests)
-* [Asking questions/getting help](#questions)
+* [Asking questions/getting help](#asking-questionsgetting-help)
 * [Code standards and style guides](#code-standards-and-style-guides)
 
 -----

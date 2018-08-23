@@ -157,7 +157,7 @@ gulp.task('css', gulp.series('scss-lint-theme', 'scss-build-theme'));
 // JavaScript
 //
 
-// Run eshint on js files in src.jsPath
+// Run eslint on js files in src.jsPath
 gulp.task('es-lint-theme', () => {
   return lintJS([`${config.src.jsPath}/*.js`], config.src.jsPath);
 });

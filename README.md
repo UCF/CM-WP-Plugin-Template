@@ -70,7 +70,7 @@ That's it!  From here, continue developing your plugin or theme as you would nor
 ### Post-setup checklist:
 In addition to setting up your new project on Github using these files, remember to also do the following for all new projects.  Some parts of our project documentation depend on the following existing:
 
-- Set up a new channel on the ucf-wp Slack workspace for your project, using the naming convention `#prj-MY_PROJECT`, where `MY_PROJECT` corresponds to the **slug of your project on Github**, e.g. `#prj-Main-Site-Theme`.
+- Set up a new channel on the ucf-wp Slack workspace for your project, using the naming convention `#prj-MY-PROJECT`, where `MY-PROJECT` corresponds to the **slug of your project on Github**, e.g. `#prj-Main-Site-Theme`.
 
     If your Slack channel name doesn't fit within Slack's allotted character limit, you will need to update references to the project-specific channel URL throughout the project's files.
 - [Set up a project wiki](#creating-a-new-wiki) for hosting documentation

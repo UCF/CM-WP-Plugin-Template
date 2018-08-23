@@ -57,11 +57,11 @@ To ensure our projects are created with the latest configurations and README inf
     git push -u origin master
     ```
 
-6. Replace `{{My-Theme/Plugin}}` and `{{My Theme/Plugin}}` placeholders throughout the template files.
+6. Replace `{{My-Project}}` and `{{My Project}}` placeholders throughout the template files.
 
-    `{{My-Theme}}` or `{{My-Plugin}}` corresponds to the the **slug of your project on Github**, e.g. `Main-Site-Theme`.
+    `{{My-Project}}` corresponds to the the **slug of your project on Github**, e.g. `Main-Site-Theme`.
 
-    `{{My Theme}}` or `{{My Plugin}}` should be replaced with the **human-friendly name** of your project, e.g. `Main Site Theme`.
+    `{{My Project}}` should be replaced with the **human-friendly name** of your project, e.g. `Main Site Theme`.
 
     You can perform a couple of project-wide find+replace commands in your IDE/editor to do this quickly.
 
@@ -115,11 +115,11 @@ Whenever you're starting a new project hosted on Github, you should set up a new
     git push -u origin master --force
     ```
 
-6. Replace `{{My-Theme/Plugin}}` and `{{My Theme/Plugin}}` placeholders throughout the template files.
+6. Replace `{{My-Project}}` and `{{My Project}}` placeholders throughout the template files.
 
-    `{{My-Theme}}` or `{{My-Plugin}}` corresponds to the the **slug of your project on Github**, e.g. `Main-Site-Theme`.
+    `{{My-Project}}` corresponds to the the **slug of your project on Github**, e.g. `Main-Site-Theme`.
 
-    `{{My Theme}}` or `{{My Plugin}}` should be replaced with the **human-friendly name** of your project, e.g. `Main Site Theme`.
+    `{{My Project}}` should be replaced with the **human-friendly name** of your project, e.g. `Main Site Theme`.
 
     You can perform a couple of project-wide find+replace commands in your IDE/editor to do this quickly.
 

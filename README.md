@@ -14,11 +14,11 @@ Know what you're looking for?  See below:
 - [Create a new wiki](#creating-a-new-wiki)
 
 ### WordPress Plugin Files
-- [Plugin markdown files](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-files)
+- [Plugin template files](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-files)
 - [Plugin wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/plugin-wiki)
 
 ### WordPress Theme Files
-- [Theme markdown files](https://github.com/UCF/CM-Documentation-Templates/tree/theme-files)
+- [Theme template files](https://github.com/UCF/CM-Documentation-Templates/tree/theme-files)
 - [Theme wiki template](https://github.com/UCF/CM-Documentation-Templates/tree/theme-wiki)
 
 -----

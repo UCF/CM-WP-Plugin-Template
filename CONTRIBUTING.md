@@ -18,7 +18,7 @@ This document outlines the best ways to submit new ideas or inform us of bugs.  
 
 The [issue tracker](https://github.com/UCF/{{My-Project}}/issues) in Github is the preferred channel for [bug reports](#bug-reports), [feature requests](#feature-requests) and [submitting pull requests](#pull-requests).
 
-Please do not use the issue tracker for personal support requests.  The [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/) is the best place to get help with your project.  See the section on [getting help](#asking-questions-getting-help) for more information.
+Please do not use the issue tracker for personal support requests.  The [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/) is the best place to get help with your project.  See the section on [getting help](#asking-questionsgetting-help) for more information.
 
 
 ## Bug reports
@@ -51,7 +51,7 @@ You can submit a new feature request by [creating a new issue in Github](https:/
 
 ## Pull requests
 
-[**Please ask first**](#asking-questions-getting-help) before embarking on any _significant_ pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the theme's maintainers might not want to merge into the project. Pull requests should be related to existing issues that have been acknowledged by UCF Web Communications.
+[**Please ask first**](#asking-questionsgetting-help) before embarking on any _significant_ pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the theme's maintainers might not want to merge into the project. Pull requests should be related to existing issues that have been acknowledged by UCF Web Communications.
 
 All pull requests should remain focused in scope and avoid containing unrelated commits.
 

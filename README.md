@@ -1,4 +1,4 @@
-# {{My-Project}}
+# {{My Project}}
 
 {{Brief description of this theme}}.  Built with the [Athena Framework](https://ucf.github.io/Athena-Framework/).
 

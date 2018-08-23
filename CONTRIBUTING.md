@@ -42,7 +42,7 @@ If you have a live example of the bug available somewhere public, please include
 
 ## Feature requests
 
-We welcome new feature requests from developers across campus.  Before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Project}}/wiki/#Project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).
+We welcome new feature requests from developers across campus.  Before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Project}}/wiki/#project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).
 
 Please provide as much detail and context as possible to justify the inclusion of your idea in the theme. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
 

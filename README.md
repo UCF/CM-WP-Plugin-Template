@@ -5,8 +5,8 @@
 ## Quick links
 
 * [**Theme Documentation**](https://github.com/UCF/{{My-Project}}/wiki)
-* [Development](#Development)
-* [Contributing](#Contributing)
+* [Development](#development)
+* [Contributing](#contributing)
 
 -----
 

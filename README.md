@@ -21,7 +21,7 @@ Head over to the [{{My Project}} wiki](https://github.com/UCF/{{My-Project}}/wik
 
 ## Installation Requirements
 
-This theme is developed and tested against WordPress 4.9.2+ and PHP 5.4.x+. {{Modify version numbers as needed!}}
+This theme is developed and tested against WordPress 4.9.7+ and PHP 5.4.x+. {{Modify version numbers as needed!}}
 
 While this theme should work against any server running the [minimum requirements for WordPress installations](https://wordpress.org/about/requirements/), we cannot guarantee compatibility with, or provide support for, installations on non-LAMP stacks (e.g. Windows installations).
 

@@ -1,5 +1,5 @@
 <!---
-Thank you for contributing to {{My-Theme}}.
+Thank you for contributing to {{My-Project}}.
 
 Please make sure you've read our contributing guidelines:
 {{My-Theme Contributing Guidelines link}}

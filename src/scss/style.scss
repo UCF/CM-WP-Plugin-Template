@@ -1,5 +1,5 @@
 //
-// Theme variables and variable overrides
+// Plugin variables and variable overrides
 //
 @import 'variables';
 
@@ -8,10 +8,7 @@
 // Third-party assets
 //
 
-// Athena Framework
-@import './ucf-athena-framework/src/scss/framework';
-
-// import any other third-party styles here
+// Import any third-party styles here
 // ...
 
 
@@ -19,5 +16,5 @@
 // Project-specific styles and overrides
 //
 
-// Add/import your theme's custom styles here
+// Import your plugin's custom styles here
 // ...

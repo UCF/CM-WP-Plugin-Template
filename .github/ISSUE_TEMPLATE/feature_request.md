@@ -1,6 +1,6 @@
 ---
 name: "\U0001F680 Feature request"
-about: Suggest an idea for this theme
+about: Suggest an idea for this plugin
 
 ---
 
@@ -16,7 +16,7 @@ Please provide a general summary of your feature request in the Title above, and
 
 **Why it's Important**
 <!--- Why is this change important to you or your organization? -->
-<!--- How can it benefit others who utilize this theme? -->
+<!--- How can it benefit others who utilize this plugin? -->
 
 **Alternatives**
 <!-- Please describe alternative solutions or features you've considered -->

@@ -21,8 +21,7 @@ let config = {
   },
   dist: {
     cssPath: './static/css',
-    jsPath: './static/js',
-    fontPath: './static/fonts'
+    jsPath: './static/js'
   },
   packagesPath: './node_modules',
   sync: false,
@@ -119,38 +118,21 @@ function serverServe(done) {
 
 
 //
-// Installation of components/dependencies
-//
-
-// Athena Framework web font processing
-gulp.task('move-components-athena-fonts', (done) => {
-  gulp.src([`${config.packagesPath}/ucf-athena-framework/dist/fonts/**/*`])
-    .pipe(gulp.dest(config.dist.fontPath));
-  done();
-});
-
-// Run all component-related tasks
-gulp.task('components', gulp.parallel(
-  'move-components-athena-fonts'
-));
-
-
-//
 // CSS
 //
 
-// Lint all theme scss files
-gulp.task('scss-lint-theme', () => {
+// Lint all plugin scss files
+gulp.task('scss-lint-plugin', () => {
   return lintSCSS(`${config.src.scssPath}/*.scss`);
 });
 
-// Compile theme stylesheet
-gulp.task('scss-build-theme', () => {
+// Compile plugin stylesheet
+gulp.task('scss-build-plugin', () => {
   return buildCSS(`${config.src.scssPath}/style.scss`);
 });
 
-// All theme css-related tasks
-gulp.task('css', gulp.series('scss-lint-theme', 'scss-build-theme'));
+// All plugin css-related tasks
+gulp.task('css', gulp.series('scss-lint-plugin', 'scss-build-plugin'));
 
 
 //
@@ -158,17 +140,32 @@ gulp.task('css', gulp.series('scss-lint-theme', 'scss-build-theme'));
 //
 
 // Run eslint on js files in src.jsPath
-gulp.task('es-lint-theme', () => {
+gulp.task('es-lint-plugin', () => {
   return lintJS([`${config.src.jsPath}/*.js`], config.src.jsPath);
 });
 
 // Concat and uglify js files through babel
-gulp.task('js-build-theme', () => {
+gulp.task('js-build-plugin', () => {
   return buildJS(`${config.src.jsPath}/script.js`, config.dist.jsPath);
 });
 
 // All js-related tasks
-gulp.task('js', gulp.series('es-lint-theme', 'js-build-theme'));
+gulp.task('js', gulp.series('es-lint-plugin', 'js-build-plugin'));
+
+
+//
+// Documentation
+//
+
+// Generates a README.md from README.txt
+gulp.task('readme', () => {
+  return gulp.src('readme.txt')
+    .pipe(readme({
+      details: false,
+      screenshot_ext: [] // eslint-disable-line camelcase
+    }))
+    .pipe(gulp.dest('.'));
+});
 
 
 //
@@ -186,4 +183,4 @@ gulp.task('watch', (done) => {
 //
 // Default task
 //
-gulp.task('default', gulp.series('components', 'css', 'js'));
+gulp.task('default', gulp.series('css', 'js', 'readme'));

@@ -1,6 +1,6 @@
 # Contributing to {{My Project}}
 
-Thank you for your interest in contributing to this project!  If you are a developer for UCF and want to contribute to this theme, we'd love to hear from you.
+Thank you for your interest in contributing to this project!  If you are a developer for UCF and want to contribute to this plugin, we'd love to hear from you.
 
 This document outlines the best ways to submit new ideas or inform us of bugs.  Please take a moment to review these guidelines before submitting new issues or pull requests in order to make the contribution process easy and effective for everyone involved.
 
@@ -18,7 +18,7 @@ This document outlines the best ways to submit new ideas or inform us of bugs.  
 
 The [issue tracker](https://github.com/UCF/{{My-Project}}/issues) in Github is the preferred channel for [bug reports](#bug-reports), [feature requests](#feature-requests) and [submitting pull requests](#pull-requests).
 
-Please do not use the issue tracker for personal support requests.  The [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/) is the best place to get help with your project.  See the section on [getting help](#asking-questionsgetting-help) for more information.
+Please do not use the issue tracker for personal support requests.  The [#help-plugins Slack channel](https://ucf-wp.slack.com/messages/help-plugins/) is the best place to get help with your project.  See the section on [getting help](#asking-questionsgetting-help) for more information.
 
 
 ## Bug reports
@@ -30,7 +30,7 @@ Before you submit a new bug report, please follow these steps:
 
 1. **Use the GitHub issue search** &mdash; check if the issue has already been reported.  Feel free to comment in the existing issue if it is still open and you have new information to share.
 
-2. **Check if the issue has been fixed** &mdash; if you're not running the latest version of the theme, please check your code against the repo's `master` branch first (`master` will always contain the latest, stable project code). If you are running the latest version, make sure the problem isn't already resolved in an upcoming [milestone](https://github.com/UCF/{{My-Project}}/milestones).
+2. **Check if the issue has been fixed** &mdash; if you're not running the latest version of the plugin, please check your code against the repo's `master` branch first (`master` will always contain the latest, stable project code). If you are running the latest version, make sure the problem isn't already resolved in an upcoming [milestone](https://github.com/UCF/{{My-Project}}/milestones).
 
 ### Submit a bug report
 If you've followed the steps above and have a valid bug report to submit, you can submit it by [creating a new issue in Github](https://github.com/UCF/{{My-Project}}/issues/new?template=bug_report.md).
@@ -44,18 +44,18 @@ If you have a live example of the bug available somewhere public, please include
 
 We welcome new feature requests from developers across campus.  Before submitting a new request, think carefully about if the proposed feature aligns with the [goals of the project](https://github.com/UCF/{{My-Project}}/wiki/#project-goals) and with [UCF's brand](https://www.ucf.edu/brand/). We strongly encourage the discussion of new feature ideas in the [ucf-wp Slack workspace](https://ucf-wp.slack.com/).
 
-Please provide as much detail and context as possible to justify the inclusion of your idea in the theme. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
+Please provide as much detail and context as possible to justify the inclusion of your idea in the plugin. We reserve the right to deny feature requests when they don't align with the project's goals, or if said feature is already accomplishable with existing utilities/components.
 
 You can submit a new feature request by [creating a new issue in Github](https://github.com/UCF/{{My-Project}}/issues/new?template=feature_request.md) and filling out the provided template.
 
 
 ## Pull requests
 
-[**Please ask first**](#asking-questionsgetting-help) before embarking on any _significant_ pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the theme's maintainers might not want to merge into the project. Pull requests should be related to existing issues that have been acknowledged by UCF Web Communications.
+[**Please ask first**](#asking-questionsgetting-help) before embarking on any _significant_ pull request (e.g. implementing features, refactoring code); otherwise you risk spending a lot of time working on something that the plugin's maintainers might not want to merge into the project. Pull requests should be related to existing issues that have been acknowledged by UCF Web Communications.
 
 All pull requests should remain focused in scope and avoid containing unrelated commits.
 
-Your pull request will be reviewed by at least one maintainer of the theme.  While your code should be complete enough to be understood by the person reviewing it, we don't want to spend an extensive amount of time reviewing code--try to keep your code sample brief enough to be reviewed within one hour.
+Your pull request will be reviewed by at least one maintainer of the plugin.  While your code should be complete enough to be understood by the person reviewing it, we don't want to spend an extensive amount of time reviewing code--try to keep your code sample brief enough to be reviewed within one hour.
 
 Please adhere to the [coding guidelines](#code-standards-and-style-guides) used throughout the project (indentation, accurate comments, etc.)  Code that does not adhere to these standards will not be merged into the project.
 
@@ -98,6 +98,8 @@ Adhering to the following process is the best way to submit a pull request:
 
     If you're making changes to scss or js files, make sure you're minifying **and committing** those minified file changes.  scss and js file processing should be performed using gulp commands provided in the repo (see [gulpfile.js](https://github.com/UCF/{{My-Project}}/blob/master/gulpfile.js))
 
+    Additionally, make sure that any changes to the README are made in `README.txt`, NOT `README.md`.  The `README.md` file is generated automatically via the `gulp readme` task.  If you have any README updates to include with your changes, please make sure to run `gulp readme` so that both files get updated.
+
 6. Locally merge the upstream `rc-*` or `master` branch (whichever you branched off of initially) into your topic branch:
 
    ```bash
@@ -121,10 +123,10 @@ In general, we keep conversations about distributed UCF WordPress projects on th
 Whenever you post to the ucf-wp Slack, including your **job title**, information about the **college or department** you work for, as well as the **site(s) you need help with** will help us help you more effectively.
 
 ### General questions
-If you have a general question about the theme, design decisions, or any other question that isn't a help request, please post it in the [#prj-{{My-Project}} Slack channel](https://ucf-wp.slack.com/messages/prj-{{My-Project}}/). {{Edit this copy as needed!}}
+If you have a general question about the plugin, design decisions, or any other question that isn't a help request, please post it in the [#prj-{{My-Project}} Slack channel](https://ucf-wp.slack.com/messages/prj-{{My-Project}}/). {{Edit this copy as needed!}}
 
 ### Help
-If you need help with using this theme on your site, check out our [project documentation](https://github.com/UCF/{{My-Project}}/wiki).  If you can't find the answer to your question there, please drop us a line in the [#help-themes Slack channel](https://ucf-wp.slack.com/messages/help-themes/).  You don't need to @mention anyone specific, but **please note that you're using the {{My Project}} when posting your question** and include a link to your site if it's relevant to your question.
+If you need help with using this plugin on your site, check out our [project documentation](https://github.com/UCF/{{My-Project}}/wiki).  If you can't find the answer to your question there, please drop us a line in the [#help-plugins Slack channel](https://ucf-wp.slack.com/messages/help-plugins/).  You don't need to @mention anyone specific, but **please note that you're using the {{My Project}} when posting your question** and include a link to your site if it's relevant to your question.
 
 -----
 

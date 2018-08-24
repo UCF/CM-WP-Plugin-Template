@@ -10,7 +10,7 @@ Thank you for reporting a possible bug in {{My-Project}}.
 Please provide a general summary of the issue in the Title above and fill in as much of the template below as you can.
 
 The version of WordPress can be found on the Admin Dashboard page in the bottom right-hand corner.
-The version of this theme can be found by navigating to Appearance > Themes and clicking on Theme Details.
+The version of this plugin can be found by clicking "Plugins" in the Admin navigation and finding "{{My Project}}" in the list of plugins. The version number will be listed under the plugin description.
 -->
 
 **Describe the bug**
@@ -35,7 +35,7 @@ The version of this theme can be found by navigating to Appearance > Themes and 
  - OS: [e.g. iOS]
  - Browser & Version [e.g. chrome 68, safari]
  - WordPress Version: [e.g. 4.9.8]
- - Theme Version: [e.g. 1.5.2]
+ - Plugin Version: [e.g. 1.5.2]
 
 **Additional context**
 <!--- How has this bug affected you? What were you trying to accomplish? Provide a link to a live example or screenshots if available. -->

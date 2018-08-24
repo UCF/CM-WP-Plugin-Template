@@ -11,6 +11,7 @@ const rename       = require('gulp-rename');
 const sass         = require('gulp-sass');
 const sassLint     = require('gulp-sass-lint');
 const uglify       = require('gulp-uglify');
+const readme       = require('gulp-readme-to-markdown');
 const merge        = require('merge');
 
 

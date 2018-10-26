@@ -50,7 +50,7 @@ Note that compiled, minified css and js {{edit this list if the plugin doesn't i
 
     The full list of modifiable config values can be viewed in `gulpfile.js` (see `config` variable).
 3. Run `gulp default` to process front-end assets.
-4. If you haven't already done so, create a new WordPress site on your development environment to test this plugin against{{IF THIS PLUGIN REQUIRES OTHER PLUGINS:}}, and install and activate the required plugins noted above, under "Installation Requirements"{{ENDIF}}.
+4. If you haven't already done so, create a new WordPress site on your development environment to test this plugin against{{IF THIS PLUGIN REQUIRES OTHER PLUGINS:}}, and [install and activate all plugin dependencies](https://github.com/UCF/{{My-Project}}/wiki/Installation#installation-requirements){{ENDIF}}.
 5. Activate this plugin on your development WordPress site.
 6. Configure plugin settings from the WordPress admin under "{{Your plugin's admin menu label}}".
 7. Run `gulp watch` to continuously watch changes to scss and js files.{{edit this list if the plugin doesn't include css/js!}}  If you enabled BrowserSync in `gulp-config.json`, it will also reload your browser when plugin files change.

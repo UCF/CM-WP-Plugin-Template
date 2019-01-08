@@ -9,7 +9,6 @@
     "browser-sync": "^2.26.3",
     "eslint": "^5.9.0",
     "gulp": "^4.0.0",
-    "gulp-add-src": "^1.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^3.10.0",

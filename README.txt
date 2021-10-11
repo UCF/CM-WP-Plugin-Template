@@ -1,9 +1,9 @@
 === {{My Project}} ===
 Contributors: ucfwebcom
-Requires at least: 4.9.7 {{Update as needed!}}
-Tested up to: 4.9.7 {{Update as needed!}}
+Requires at least: 5.3 {{Update as needed!}}
+Tested up to: 5.3 {{Update as needed!}}
 Stable tag: 0.0.0
-Requires PHP: 5.4 {{Update as needed!}}
+Requires PHP: 7.4 {{Update as needed!}}
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl-3.0.html
 
@@ -38,7 +38,7 @@ Note that compiled, minified css and js {{edit this list if the plugin doesn't i
 [Enabling debug mode](https://codex.wordpress.org/Debugging_in_WordPress) in your `wp-config.php` file is recommended during development to help catch warnings and bugs.
 
 = Requirements =
-* node
+* node v16+
 * gulp-cli
 
 = Instructions =

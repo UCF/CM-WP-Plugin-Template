@@ -125,7 +125,7 @@ function serverServe(done) {
 
 // Lint all plugin scss files
 gulp.task('scss-lint-plugin', () => {
-  return lintSCSS(`${config.src.scssPath}/*.scss`);
+  return lintSCSS(`${config.src.scssPath}/**/*.scss`);
 });
 
 // Compile plugin stylesheet
@@ -143,7 +143,7 @@ gulp.task('css', gulp.series('scss-lint-plugin', 'scss-build-plugin'));
 
 // Run eslint on js files in src.jsPath
 gulp.task('es-lint-plugin', () => {
-  return lintJS([`${config.src.jsPath}/*.js`], config.src.jsPath);
+  return lintJS([`${config.src.jsPath}/**/*.js`], config.src.jsPath);
 });
 
 // Concat and uglify js files through babel
